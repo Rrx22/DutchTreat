@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dutchcontextdbdbserver/databases/DutchContextDb",
+      "type": "mssql.azure",
+      "connectionId": "DutchContextDb",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
